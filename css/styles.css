@@ -10,6 +10,12 @@
   --btn-order-bg: #188ce8;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -26,6 +32,7 @@ h6,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 
 .list {
@@ -81,9 +88,10 @@ ul {
 }
 
 .container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
@@ -93,6 +101,7 @@ ul {
 
 .hero {
   background-color: var(--hero-footer-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -103,6 +112,11 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-bottom: 30px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
 }
 
 .btn-order {
@@ -118,6 +132,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  padding: 10px 32px;
 }
 
 .btn-order:hover,
@@ -132,6 +147,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark-color);
+  margin-bottom: 10px;
 }
 
 .feature-text {
@@ -149,6 +165,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-color);
+  margin-bottom: 50px;
 }
 
 .team {
@@ -162,6 +179,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-color);
+  margin-bottom: 50px;
 }
 
 .card-item {
@@ -178,6 +196,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-color);
+  margin-bottom: 10px;
 }
 
 .staff-text {
