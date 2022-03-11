@@ -88,7 +88,7 @@ ul {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -223,6 +223,7 @@ ul {
   cursor: pointer;
   border-radius: 4px;
   border: 0;
+  padding: 6px 22px;
 }
 
 .btn-filter:hover,
@@ -233,6 +234,10 @@ ul {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.list-filter {
+  margin-bottom: 50px;
 }
 
 .project-item {
@@ -247,6 +252,8 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--dark-color);
+  margin-bottom: 4px;
+  margin-top: 20px;
 }
 
 .project-link {
@@ -259,6 +266,7 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-bottom: 20px;
 }
 /* end portfolio  */
 .footer {
